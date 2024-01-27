@@ -4,61 +4,54 @@ live_config_reload = true
 decorations = "Full"
 opacity = 0.8
 
-[[colors.indexed_colors]]
-color = "#FAB387"
-index = 16
+[window.padding]
+x = 15
+y = 15
 
-[[colors.indexed_colors]]
-color = "#F5E0DC"
-index = 17
+[font]
+size = 12
 
-[colors.bright]
-black = "#585B70"
-blue = "#89B4FA"
-cyan = "#94E2D5"
-green = "#A6E3A1"
-magenta = "#F5C2E7"
-red = "#F38BA8"
-white = "#A6ADC8"
-yellow = "#F9E2AF"
+[font.normal]
+family = "BlexMono Nerd Font Mono"
+style = "Regular"
+
+[colors.primary]
+background = "#252322"
+foreground = "#DCC1FF"
+dim_foreground = "#B09ACC"
+bright_foreground = "#ECDDFF"
 
 [colors.cursor]
-cursor = "#F5E0DC"
-text = "#1E1E2E"
+text = "CellBackground"
+cursor = "CellForeground"
 
-[colors.dim]
-black = "#45475A"
-blue = "#89B4FA"
-cyan = "#94E2D5"
-green = "#A6E3A1"
-magenta = "#F5C2E7"
-red = "#F38BA8"
-white = "#BAC2DE"
-yellow = "#F9E2AF"
+[colors.normal]
+black = "#32344a"
+red = "#f7768e"
+green = "#9ece6a"
+yellow = "#e0af68"
+blue = "#7aa2f7"
+magenta = "#ad8ee6"
+cyan = "#449dab"
+white = "#787c99"
 
-[colors.hints.end]
-background = "#A6ADC8"
-foreground = "#1E1E2E"
+[colors.bright]
+black = "#444b6a"
+red = "#ff7a93"
+green = "#b9f27c"
+yellow = "#ff9e64"
+blue = "#7da6ff"
+magenta = "#bb9af7"
+cyan = "#0db9d7"
+white = "#acb0d0"
 
 [colors.hints.start]
 background = "#F9E2AF"
 foreground = "#1E1E2E"
 
-[colors.normal]
-black = "#45475A"
-blue = "#89B4FA"
-cyan = "#94E2D5"
-green = "#A6E3A1"
-magenta = "#F5C2E7"
-red = "#F38BA8"
-white = "#BAC2DE"
-yellow = "#F9E2AF"
-
-[colors.primary]
-background = "#1E1E2E"
-bright_foreground = "#CDD6F4"
-dim_foreground = "#CDD6F4"
-foreground = "#CDD6F4"
+[colors.hints.end]
+background = "#A6ADC8"
+foreground = "#1E1E2E"
 
 [colors.search.focused_match]
 background = "#A6E3A1"
@@ -69,19 +62,10 @@ background = "#A6ADC8"
 foreground = "#1E1E2E"
 
 [colors.selection]
-background = "#F5E0DC"
-text = "#1E1E2E"
-
-[font]
-size = 12
-
-[font.normal]
-family = "BlexMono Nerd Font Mono"
-style = "Regular"
+text = "CellBackground"
+background = "CellForeground"
 
 [shell]
 program = "/usr/bin/bash"
 
-[window.padding]
-x = 20
-y = 20
+
